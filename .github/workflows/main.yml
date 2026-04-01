@@ -1,0 +1,15 @@
+nama: Buat APK
+pada: [push]
+
+pekerjaan:
+
+bangun:
+berjalan di: ubuntu-latest
+langkah-langkah:
+
+- menggunakan: actions/checkout@v3
+
+- nama: Siapkan Java
+menggunakan: actions/setup-java@v3
+dengan:
+         
